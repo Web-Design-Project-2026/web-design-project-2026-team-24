@@ -2,6 +2,12 @@ body {
   margin: 0;
   background-color: #fdf6ec;
 }
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Navigation bar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -24,12 +30,28 @@ nav {
   text-decoration: none;
   color: #235740;
 }
-
-.page-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Banner */
+.banner {
+  background-color: #ce571b;
+  color: #fdf6ec;
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
 }
+
+.banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.banner img {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4.5rem;
+}
+/* Footer */
 footer {
   margin-top: auto;
   background-color: #235740;
