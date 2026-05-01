@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background-color: #fdf6ec;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left img {
+  height: 3rem;
+}
+
+.nav-right {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #235740;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+  background-color: #235740;
+  color: #fdf6ec;
+}
