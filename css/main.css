@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #fdf6ec;
+  font-family: "Libre Baskerville", serif;
 }
 .page-container {
   min-height: 100vh;
@@ -12,6 +13,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0rem 4rem;
 }
 
 .nav-left img {
@@ -21,7 +23,7 @@ nav {
 .nav-right {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   margin: 0;
   padding: 0;
 }
@@ -51,7 +53,7 @@ nav {
   transform: translateY(-50%);
   height: 4.5rem;
 }
-/* Footer */
+/* footer */
 footer {
   margin-top: auto;
   background-color: #235740;
@@ -69,4 +71,33 @@ footer {
 }
 .footer-right img {
   height: 2rem;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 3rem;
+}
+.home-card {
+  text-align: center;
+}
+.home-card h1 {
+  color: #235740;
+}
+
+.button {
+  background-color: #ce571b;
+  color: #fdf6ec;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+}
+
+.opening-hours {
+  border: 0.15rem solid #ce571b;
+  padding: 0.2rem;
+  width: 20%;
+  text-align: center;
 }
