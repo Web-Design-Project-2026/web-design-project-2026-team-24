@@ -181,3 +181,71 @@ footer {
   margin: 0;
   line-height: 1.5;
 }
+/* Menu page */
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 4rem;
+  width: 45%;
+}
+
+.menu-list div {
+  width: 40%;
+}
+
+.menu-list h2 {
+  color: #235740;
+  font-size: 2.2rem;
+  margin: 0 0 1rem;
+}
+
+.menu-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+}
+
+.menu-feature {
+  width: 30%;
+  text-align: center;
+}
+
+.menu-feature img {
+  width: 100%;
+}
+
+.menu-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.menu-slider p {
+  color: #235740;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.menu-slider button {
+  background: none;
+  border: none;
+  color: #ce571b;
+  font-size: 2rem;
+  font-weight: bold;
+}
