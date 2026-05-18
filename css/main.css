@@ -101,3 +101,49 @@ footer {
   width: 20%;
   text-align: center;
 }
+.events-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 2rem 6rem;
+}
+
+.event-card {
+  width: 30%;
+  margin-bottom: 2rem;
+
+  transition: 0.3s;
+  border-radius: 0.5rem;
+}
+
+.event-card:hover {
+  transform: scale(1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+}
+
+.event-text p {
+  margin: 0.5rem 0 0;
+  font-weight: bold;
+}
+
+.event-text p span {
+  color: #ce571b;
+  margin-left: 0.3rem;
+}
+
+.event-text h2 {
+  margin: 0.2rem 0 0;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.event-text h2 span {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
