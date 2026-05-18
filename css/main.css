@@ -101,6 +101,8 @@ footer {
   width: 20%;
   text-align: center;
 }
+
+/* Event page content */
 .events-content {
   display: flex;
   flex-wrap: wrap;
@@ -146,4 +148,36 @@ footer {
 .event-text h2 span {
   font-size: 1rem;
   margin-left: 1rem;
+}
+
+/* About page */
+.about-content {
+  padding: 4rem 10rem;
+}
+
+.about-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.about-box img {
+  width: 27%;
+  height: auto;
+}
+
+.about-text {
+  width: 45%;
+}
+
+.about-text h2 {
+  color: #235740;
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+}
+
+.about-text p {
+  margin: 0;
+  line-height: 1.5;
 }
