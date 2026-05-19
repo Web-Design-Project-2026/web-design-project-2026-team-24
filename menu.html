@@ -82,11 +82,18 @@
         </section>
 
         <section class="menu-feature">
-          <img src="img/muffin.png" alt="Chocolate muffin" />
+          <img
+            id="menu-image"
+            src="img/muffin menu.png"
+            alt="Chocolate muffin"
+          />
+
           <div class="menu-slider">
-            <button>&lt;</button>
-            <p>Chocolate muffin</p>
-            <button>&gt;</button>
+            <button onclick="previousItem()">&lt;</button>
+
+            <p id="menu-title">Chocolate muffin</p>
+
+            <button onclick="nextItem()">&gt;</button>
           </div>
         </section>
       </main>
@@ -102,5 +109,6 @@
         </div>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
