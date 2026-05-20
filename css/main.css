@@ -32,6 +32,9 @@ nav {
   text-decoration: none;
   color: #235740;
 }
+.nav-right a:hover {
+  border-bottom: 0.1rem solid #235740;
+}
 /* Banner */
 .banner {
   background-color: #ce571b;
