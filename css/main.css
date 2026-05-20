@@ -310,6 +310,18 @@ footer {
   .menu-list h2 {
     font-size: 1.8rem;
   }
+  .events-content {
+    padding: 2rem 3rem;
+  }
+  .event-card {
+    width: 31%;
+  }
+  .event-text h2 {
+    font-size: 1rem;
+  }
+  .event-text h2 span {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -374,6 +386,12 @@ footer {
   }
   .menu-feature {
     width: 60%;
+  }
+  .events-content {
+    padding: 2rem;
+  }
+  .event-card {
+    width: 47%;
   }
 }
 
@@ -441,5 +459,19 @@ footer {
   }
   .menu-slider {
     gap: 1rem;
+  }
+  .events-content {
+    padding: 2rem 1rem;
+  }
+  .event-card {
+    width: 100%;
+  }
+  .event-text h2 {
+    font-size: 1.1rem;
+  }
+  .event-text h2 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.2rem;
   }
 }
