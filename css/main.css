@@ -98,7 +98,9 @@ footer {
   padding: 0.5rem 1rem;
   border-radius: 0.7rem;
 }
-
+.button:hover {
+  background-color: #a9410c;
+}
 .opening-hours {
   border: 0.15rem solid #ce571b;
   padding: 0.2rem;
