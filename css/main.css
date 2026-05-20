@@ -281,6 +281,21 @@ footer {
   .opening-hours {
     width: 25%;
   }
+  .about-content {
+    padding: 3rem 4rem;
+  }
+  .about-box {
+    gap: 2rem;
+  }
+  .about-box img {
+    width: 32%;
+  }
+  .about-text {
+    width: 50%;
+  }
+  .about-text h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -314,6 +329,22 @@ footer {
   .opening-hours {
     width: 70%;
     margin: 2rem auto 0;
+  }
+  .about-content {
+    padding: 2rem;
+  }
+  .about-box {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .about-box img {
+    width: 70%;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .about-text h2 {
+    font-size: 1.8rem;
   }
 }
 
@@ -350,5 +381,17 @@ footer {
   .opening-hours {
     width: auto;
     margin: 0 auto;
+  }
+  .about-content {
+    padding: 2rem 1rem;
+  }
+  .about-box img {
+    width: 100%;
+  }
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+  .about-box {
+    margin-bottom: 3rem;
   }
 }
