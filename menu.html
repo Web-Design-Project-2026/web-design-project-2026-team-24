@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Lightning</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <nav>
+        <div class="nav-left">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="Company logo" />
+          </a>
+        </div>
+        <ul class="nav-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
+      <section class="banner">
+        <h1>Come for the coffe. Stay for the vibes</h1>
+        <img
+          src="img/Coffee bean icon.png"
+          alt="Vector icon of two coffee beans"
+        />
+      </section>
+      <main class="menu-content">
+        <section class="menu-list">
+          <div>
+            <h2>Coffee</h2>
+            <ul>
+              <li>Espresso <span>3€</span></li>
+              <li>Cappuccino <span>4€</span></li>
+              <li>Latte <span>4€</span></li>
+              <li>Flat White <span>4€</span></li>
+              <li>Cold brew <span>5€</span></li>
+              <li>Mocha <span>5€</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Pastries</h2>
+            <ul>
+              <li>Cookie <span>2€</span></li>
+              <li>Croissant <span>3€</span></li>
+              <li>Lemon cake <span>3€</span></li>
+              <li>Danish roll <span>4€</span></li>
+              <li>Macarons <span>4€</span></li>
+              <li>Muffin <span>5€</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Breakfast</h2>
+            <ul>
+              <li>Pancakes <span>5€</span></li>
+              <li>French Toast <span>6€</span></li>
+              <li>Waffles <span>6€</span></li>
+              <li>Full English <span>7€</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Lunch</h2>
+            <ul>
+              <li>Bean wraps <span>7€</span></li>
+              <li>Tuna salad <span>8€</span></li>
+              <li>Chicken bowl <span>9€</span></li>
+              <li>Caesar Salad <span>8€</span></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="menu-feature">
+          <img
+            id="menu-image"
+            src="img/muffin menu.png"
+            alt="Chocolate muffin"
+          />
+
+          <div class="menu-slider">
+            <button onclick="previousItem()">&lt;</button>
+
+            <p id="menu-title">Chocolate muffin</p>
+
+            <button onclick="nextItem()">&gt;</button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-left">
+          <p>Adress: Kingstreet 74</p>
+          <p>Tel: +46705 92 28 21</p>
+        </div>
+        <div class="footer-right">
+          <img src="img/X icon.png" alt="X logo" />
+          <img src="img/Instagram icon.png" alt="Instagram logo" />
+          <img src="img/Facebook icon.png" alt="Facebook logo" />
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

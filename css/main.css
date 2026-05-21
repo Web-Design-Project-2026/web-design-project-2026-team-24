@@ -1,0 +1,482 @@
+body {
+  margin: 0;
+  background-color: #fdf6ec;
+  font-family: "Libre Baskerville", serif;
+}
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 4rem;
+}
+
+.nav-left img {
+  height: 3rem;
+}
+
+.nav-right {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #235740;
+}
+.nav-right a:hover {
+  border-bottom: 0.1rem solid #235740;
+}
+/* Banner */
+.banner {
+  background-color: #ce571b;
+  color: #fdf6ec;
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.banner img {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4.5rem;
+}
+/* footer */
+footer {
+  margin-top: auto;
+  background-color: #235740;
+  color: #fdf6ec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.footer-right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.footer-right img {
+  height: 2rem;
+}
+/* Homepage content */
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 3rem;
+}
+.home-card {
+  text-align: center;
+  width: 35%;
+}
+.home-card img {
+  width: 100%;
+}
+.home-card h1 {
+  color: #235740;
+}
+
+.button {
+  background-color: #ce571b;
+  color: #fdf6ec;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+}
+.button:hover {
+  background-color: #a9410c;
+}
+.opening-hours {
+  border: 0.15rem solid #ce571b;
+  padding: 0.2rem;
+  width: 20%;
+  text-align: center;
+}
+
+/* Event page content */
+.events-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 2rem 6rem;
+}
+
+.event-card {
+  width: 30%;
+  margin-bottom: 2rem;
+
+  transition: 0.3s;
+  border-radius: 0.5rem;
+}
+
+.event-card:hover {
+  transform: scale(1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+}
+
+.event-text p {
+  margin: 0.5rem 0 0;
+  font-weight: bold;
+}
+
+.event-text p span {
+  color: #ce571b;
+  margin-left: 0.3rem;
+}
+
+.event-text h2 {
+  margin: 0.2rem 0 0;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.event-text h2 span {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+/* About page */
+.about-content {
+  padding: 4rem 10rem;
+}
+
+.about-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.about-box img {
+  width: 27%;
+  height: auto;
+}
+
+.about-text {
+  width: 45%;
+}
+
+.about-text h2 {
+  color: #235740;
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+}
+
+.about-text p {
+  margin: 0;
+  line-height: 1.5;
+}
+/* Menu page */
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 4rem;
+  width: 45%;
+}
+
+.menu-list div {
+  width: 40%;
+}
+
+.menu-list h2 {
+  color: #235740;
+  font-size: 2.2rem;
+  margin: 0 0 1rem;
+}
+
+.menu-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+}
+
+.menu-feature {
+  width: 30%;
+  text-align: center;
+}
+
+.menu-feature img {
+  width: 100%;
+}
+
+.menu-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.menu-slider p {
+  color: #235740;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.menu-slider button {
+  background: none;
+  border: none;
+  color: #ce571b;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* Breakpoints */
+
+@media (max-width: 1100px) {
+  .banner img {
+    display: none;
+  }
+  nav {
+    padding: 1rem 2rem;
+  }
+  .nav-right {
+    gap: 2rem;
+  }
+  footer {
+    padding: 1rem 2rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .home-content {
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+  .home-card img {
+    width: 100%;
+  }
+  .opening-hours {
+    width: 25%;
+  }
+  .about-content {
+    padding: 3rem 4rem;
+  }
+  .about-box {
+    gap: 2rem;
+  }
+  .about-box img {
+    width: 32%;
+  }
+  .about-text {
+    width: 50%;
+  }
+  .about-text h2 {
+    font-size: 2rem;
+  }
+  .menu-content {
+    gap: 3rem;
+    padding: 3rem 3rem;
+  }
+  .menu-list {
+    width: 55%;
+    gap: 2rem;
+  }
+  .menu-feature {
+    width: 35%;
+  }
+  .menu-list h2 {
+    font-size: 1.8rem;
+  }
+  .events-content {
+    padding: 2rem 3rem;
+  }
+  .event-card {
+    width: 31%;
+  }
+  .event-text h2 {
+    font-size: 1rem;
+  }
+  .event-text h2 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    padding: 1rem;
+  }
+  .nav-right {
+    gap: 1rem;
+  }
+  .banner {
+    padding: 1rem;
+  }
+  .banner h1 {
+    font-size: 1.7rem;
+    padding-right: 0;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .footer-right {
+    gap: 1rem;
+  }
+  .home-content {
+    flex-wrap: wrap;
+  }
+  .home-card {
+    width: 45%;
+  }
+  .opening-hours {
+    width: 70%;
+    margin: 2rem auto 0;
+  }
+  .about-content {
+    padding: 2rem;
+  }
+  .about-box {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .about-box img {
+    width: 70%;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+  .menu-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  .menu-list {
+    width: 100%;
+    justify-content: center;
+  }
+  .menu-list div {
+    width: 40%;
+  }
+  .menu-feature {
+    width: 60%;
+  }
+  .events-content {
+    padding: 2rem;
+  }
+  .event-card {
+    width: 47%;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .nav-left img {
+    height: 2.5rem;
+  }
+  .nav-right {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  .banner h1 {
+    font-size: 1.4rem;
+  }
+  footer {
+    padding: 1rem;
+  }
+  .footer-right img {
+    height: 1.5rem;
+  }
+  .home-content {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 1rem;
+  }
+  .home-card {
+    width: 100%;
+  }
+  .opening-hours {
+    width: auto;
+    margin: 0 auto;
+  }
+  .about-content {
+    padding: 2rem 1rem;
+  }
+  .about-box img {
+    width: 100%;
+  }
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+  .about-box {
+    margin-bottom: 3rem;
+  }
+  .menu-content {
+    padding: 2rem 1rem;
+  }
+  .menu-list {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .menu-list div {
+    width: 100%;
+  }
+  .menu-feature {
+    width: 100%;
+  }
+  .menu-slider p {
+    font-size: 1.2rem;
+  }
+  .menu-slider {
+    gap: 1rem;
+  }
+  .events-content {
+    padding: 2rem 1rem;
+  }
+  .event-card {
+    width: 100%;
+  }
+  .event-text h2 {
+    font-size: 1.1rem;
+  }
+  .event-text h2 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.2rem;
+  }
+}
